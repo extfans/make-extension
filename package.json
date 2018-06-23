@@ -1,0 +1,25 @@
+{
+  "name": "make-extension",
+  "version": "0.1.0",
+  "description": "make browser extension with webpack",
+  "bin": {
+    "make-extension": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:butsalt/make-extension.git"
+  },
+  "keywords": [
+    "extension",
+    "addon"
+  ],
+  "author": "butSalt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butsalt/make-extension/issues"
+  },
+  "homepage": "https://github.com/butsalt/make-extension#readme"
+}
