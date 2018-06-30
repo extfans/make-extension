@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/butsalt/make-extension#readme",
   "dependencies": {
-    "autoprefixer": "^8.6.3",
+    "autoprefixer": "^8.6.4",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
@@ -37,6 +37,7 @@
     "commander": "^2.15.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "gulp": "^3.9.1",
     "gulp-watch": "^5.0.0",
     "html-webpack-plugin": "^3.2.0",
