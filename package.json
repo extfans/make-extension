@@ -1,9 +1,10 @@
 {
   "name": "make-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "make browser extension with webpack",
   "bin": {
     "make-extension": "bin/cli.js",
+    "make-extension-init": "bin/init.js",
     "make-extension-dev": "bin/dev.js",
     "make-extension-build": "bin/build.js"
   },
