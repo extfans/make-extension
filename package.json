@@ -1,6 +1,6 @@
 {
   "name": "make-extension",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "make browser extension with webpack",
   "bin": {
     "make-extension": "bin/cli.js",
@@ -53,8 +53,9 @@
     "postcss-utilities": "^0.8.0",
     "rimraf": "^2.6.2",
     "style-loader": "^0.21.0",
-    "uglifyjs-webpack-plugin": "^1.2.6",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-merge": "^4.1.3"
   }
 }
