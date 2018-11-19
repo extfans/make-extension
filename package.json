@@ -4,8 +4,8 @@
   "description": "make browser extension with webpack",
   "bin": {
     "make-extension": "bin/cli.js",
-    "make-extension-dev": "bin/dev.js",
-    "make-extension-build": "bin/build.js"
+    "make-extension-dev": "bin/cli-dev.js",
+    "make-extension-build": "bin/cli-build.js"
   },
   "repository": {
     "type": "git",
