@@ -34,7 +34,7 @@
 * [postcss-utilities](https://github.com/ismamz/postcss-utilities)
 
 ## 注意
-* 0.5.0之前babel添加了`plugin-proposal-decorators`，考虑到会增加代码体积已在0.5.0移除
+* 0.5.0之前添加了babel插件`plugin-proposal-decorators`，考虑到会增加代码体积已在0.5.0移除
 
 ## 使用中的项目
 * http://git.infinitynewtab.com/Starlab/infinity-pro
