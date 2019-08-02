@@ -7,7 +7,7 @@
 1. 清理`dist`目录
 2. 复制国际化及图标文件到`dist`
 3. 读取`browser/base/manifest.json`，`browser/${process.env.BROWSER}/mafest.json`合并后生成扩展manifest临时文件
-4. 执行`browser/base/.pointrc.js`，`browser/${process.env.BROWSER}/.pointrc.js`结果合并后生成此次打包过程中需要webpack额外进行编译的entry
+4. 执行`browser/base/.pointrc.js`，`browser/${process.env.BROWSER}/.pointrc.js`结果合并后生成此次打包过程中需要webpack额外进行编译的entry point
 5. 根据manifest临时文件和`.pointrc.js`的结果生成webpack entry
 6. 执行`browser/base/.postcssfunctionrc.js`，`browser/${process.env.BROWSER}/.postcssfunctionrc.js`结果合并后生成额外的postcss-function(用法[参考](https://www.npmjs.com/package/postcss-functions))
 7. 执行webpack打包
@@ -20,10 +20,10 @@
 * @(相当于browser/base/src)
 * ~(相当于browser/${process.env.BROWSER}/src)
 
-## webpack entry收集原理
+## webpack entry point收集原理
 1. 生成`manifest.json`，收集文件中以`@/`或`~/`开始的路径，比如`@/pages/newtab.html`
 2. 读取`browser/base/.pointrc.js`，`browser/${process.env.BROWSER}/.pointrc.js`记录的路径
-3. 将路径转化为entry，比如`@/pages/newtab.html`->`browser/base/src/pages/newtab/index.js`，如果目录下还存在`index.html`就作为该页面对应的html模板传递给`HtmlWebpackPlugin`
+3. 将路径转化为entry point，比如`@/pages/newtab.html`->`browser/base/src/pages/newtab/index.js`，如果目录下还存在`index.html`就作为该页面对应的html模板传递给`HtmlWebpackPlugin`
 
 ## 可以使用的js草案语法
 * [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
