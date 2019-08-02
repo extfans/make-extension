@@ -25,6 +25,9 @@
 2. 读取`browser/base/.pointrc.js`，`browser/${process.env.BROWSER}/.pointrc.js`记录的路径
 3. 将路径转化为entry，比如`@/pages/newtab.html`->`browser/base/src/pages/newtab/index.js`，如果目录下还存在`index.html`就作为该页面对应的html模板传递给`HtmlWebpackPlugin`
 
+## 可以使用的js草案语法
+* [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
+
 ## 使用到的postcss plugin
 * [postcss-calc](https://github.com/postcss/postcss-calc)
 * [postcss-functions](https://github.com/andyjansson/postcss-functions)
