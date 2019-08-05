@@ -20,7 +20,7 @@
 * @(相当于browser/base/src)
 * ~(相当于browser/${process.env.BROWSER}/src)
 
-## webpack entry point收集原理
+## webpack entry point收集流程
 1. 生成`manifest.json`，收集文件中以`@/`或`~/`开始的路径，比如`@/pages/newtab.html`
 2. 读取`browser/base/.pointrc.js`，`browser/${process.env.BROWSER}/.pointrc.js`记录的路径
 3. 将路径转化为entry point，比如`@/pages/newtab.html`->`browser/base/src/pages/newtab/index.js`，如果目录下还存在`index.html`就作为该页面对应的html模板传递给`HtmlWebpackPlugin`
