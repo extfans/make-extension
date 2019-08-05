@@ -15,6 +15,7 @@
 
 ## 预定义的webpack env
 * process.env.BROWSER(当运行`make-extension dev chrome`时，process.env.BROWSER === 'chrome')
+* process.env.NODE_ENV(dev时为`development`，build时为`production`)
 
 ## 预定义的webpack alias
 * @(相当于browser/base/src)
