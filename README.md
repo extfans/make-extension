@@ -1,5 +1,5 @@
 # 扩展构建工具
- install -g make-extension@0.7.0
+ install -g make-extension@0.8.0
 ## node版本要求
 10.9.0
 
