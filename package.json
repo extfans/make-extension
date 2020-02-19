@@ -1,6 +1,6 @@
 {
   "name": "make-extension",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "make browser extension with webpack",
   "bin": {
     "make-extension": "bin/cli.js",
