@@ -10,6 +10,7 @@ process.env.BABEL_ENV = 'development';
 process.env.NODE_ENV = 'development';
 process.env.DEBUG = true;
 process.env.BROWSER = program.args[0];
+process.env.BROWSER_ENV = program.args[1] ? program.args[1] : program.args[0];
 
 const dev = require('../lib/dev');
 
